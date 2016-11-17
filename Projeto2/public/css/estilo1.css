@@ -1,0 +1,52 @@
+.pessoa {
+	margin: 50px 100px 25px 50px;
+	position: relative;
+	width:auto;
+	max-width: : 500px;
+	height: 200px;
+}
+
+body {
+    background-color: #cc4125;
+    font-family: "Helvetica Neue";
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+	font-size: 55px;
+	position: absolute;
+	left: 40%;
+	top: 10%;
+	margin: 50px 10px 10px 10px;
+}
+
+h1 {
+	text-decoration: underline;
+	margin: 50px 100px 0px 100px;
+}
+
+ul{
+
+	margin: 10px 100px 0px 100px;
+}
+
+span {
+	position: relative;
+	right: 30pc;
+}
+.cabecalho {
+    height: 50px;
+    background-color: #660000;
+}
+.desc{
+	position: absolute;
+	left: 31%;
+	top: 25%;
+	text-align: justify;
+	width: 450px;
+}
+.logo{
+	position: fixed;
+	margin: -15px 0px 0px 50px;
+}

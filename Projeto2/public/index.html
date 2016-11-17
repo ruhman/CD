@@ -1,0 +1,71 @@
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>MTP</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,700" rel="stylesheet">
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="style.min.css" rel="stylesheet">
+
+    <script>
+        function sorteia() {
+            var rnd = Math.random();
+
+            console.log("hello");
+            var destino = "";
+
+            var pg_a = "homeA.html";
+            var pg_b = "homeB.html";
+
+
+            if (rnd < 0.5) {
+                destino = pg_a;
+            } else {
+                destino = pg_b;
+            }
+
+            window.location.replace(destino);
+        }
+
+        window.onload = function() {
+            var element = document.getElementById('continuar'); // grab a reference to your element
+            element.addEventListener('click', sorteia);
+        }
+    </script>
+
+
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="jumbotron">
+            <h1 class="display-3">Olá</h1>
+            <p class="lead">Bem vindo ao nosso trabalho de ciência dos dados! Esta é uma pagina intermediária, você logo será redirecionado</p>
+            <hr class="my-2">
+            <p>Na página seguinte, por favor busque o projeto <b>_______</b>.</p>
+            <p class="lead">
+                <a class="btn btn-primary btn-lg" role="button" id="continuar">Continuar</a>
+            </p>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
